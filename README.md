@@ -30,6 +30,9 @@ salt '*' state.sls mystatefile           # mystatefile.sls will be applied to *
 salt 'minion1' state.sls prod.somefile  # prod/somefile.sls will be applied to minion1
 ```
 
+
+
+
 ## Grains
 List all grains on all minions
 ```
